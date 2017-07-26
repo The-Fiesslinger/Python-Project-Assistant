@@ -1,0 +1,70 @@
+
+#for eachArg in sys.argv:
+#       # print(eachArg)
+#    if eachArg == 'crdir':
+#        print('Projekt wird erstellt!')
+#    else:
+#        print('Projket konnte nicht erstellt werden')
+#        if eachArg == 'crclass':
+            print('Klasse wird erstellt!')
+        else:
+            print('Klasse konnte nicht erstellt werden')
+            if eachArg == 'crrealese':
+                print('Klasse wird erstellt!')
+            else:
+                print('Release konnte nicht erstellt werden')
+                if eachArg == 'crinstall':
+                    print('Klasse wird erstellt!')
+                else:
+                    print('Installer konnte nicht erstellt werden')
+                    exit(1)
+
+
+
+
+
+
+                    for eachArg in sys.argv:
+    def createDIR():
+        # Projekt Dir erstellen
+        if eachArg == 'crdir':
+            print('Projekt wird erstellt!')
+            createClass()
+        else:
+            print('Projket konnte nicht erstellt werden')
+
+
+    def createClass():
+        if eachArg == 'crclass':
+            print('Klasse wird erstellt!')
+            exit()
+        else:
+            print('Klasse konnte nicht erstellt werden')
+            exit(1)
+
+    def createRl():
+        if eachArg == 'crrl':
+            print('Klasse wird erstellt!')
+            exit()
+        else:
+            print('Release konnte nicht erstellt werden')
+            exit(1)
+
+    def createInstall():
+        if eachArg == 'crinstall':
+            print('Klasse wird erstellt!')
+            exit()
+        else:
+            print('Installer konnte nicht erstellt werden')
+            exit(1)
+
+
+
+
+
+            def main():
+    createDIR()
+    createClass()
+
+if __name__ == "__main__":
+    main()
