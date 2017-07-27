@@ -5,37 +5,52 @@ import sys
 
 print('Usage: python parameter.py [...] [...] [...] ....|[crDir, crClass, crRelease, crInstall]!')
 
-CRDIR = sys.argv
-CRCLASS = sys.argv
-CRRELEASE = sys.argv
-CRINSTALL = sys.argv
-
-
 class param:
     def abfrage(self):
         try:
-            if CRDIR[1] == 'crDir':
+            if CRDIR == 'crDir':
                 print('Grundstrucktur wurde angelegt')
-
             else:
                 print('Grundstrucktur wurde nicht angelegt!')
 
-            if CRCLASS[2] == 'crClass':
+            if CRCLASS == 'crClass':
                 print('Klasse wurde angelegt')
             else:
                 print('Klasse wurde nicht angelegt!')
 
-            if CRRELEASE[3] == 'crRelease':
+            if CRRELEASE == 'crRelease':
                 print('Release wurde angelegt')
             else:
                 print('Release wurde nicht angelegt!')
 
-            if CRINSTALL[4] == 'crInstall':
+            if CRINSTALL == 'crInstall':
                 print('Installer wurde angelegt')
             else:
                 print('Installer wurde nicht angelegt!')
         except ValueError:
             print('Fehler')
+
+try:
+    CRDIR = str(sys.argv[1])
+except IndexError:
+    CRDIR = None
+
+try:
+    CRCLASS = str(sys.argv[2])
+except IndexError:
+    CRCLASS = None
+
+try:
+    CRRELEASE = str(sys.argv[3])
+except IndexError:
+    CRRELEASE = None
+
+try:
+    CRINSTALL = str(sys.argv[4])
+except IndexError:
+    CRINSTALL = None
+
+
 
 def main():
     create = param()
