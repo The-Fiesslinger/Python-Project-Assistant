@@ -1,6 +1,6 @@
-#Python-Project-Assistant
+Python-Project-Assistant
 
-##Zielsetzung
+Zielsetzung
 
 Pyton ist vor allem für Programmieranfänger die Sprache der Wahl. Ein Python-Programm zu schreiben ist leicht,
 es zu Verpacken, damit ein anderer es einfach Installieren und ausführen kann ist aber eine echte Herausforderung.
