@@ -55,13 +55,15 @@ class param:
         setup.write( "\n" )
         setup.write( "\n" )
         setup.write( "setup(name='" + self.script_name + "',\n\t"
-                                                         "version='" + self.version + "',\n\t"
-                                                                                      "description='" + self.description + "',\n\t"
-                                                                                                                           "url='" + self.url + "',\n\t"
-                                                                                                                                                "author='" + self.author + "',\n\t"
-                                                                                                                                                                           "author_email='" + self.author_email + "',\n\t"
-                                                                                                                                                                                                                  "license='" + self.licenses + "',)" )
-        setup.close( )
+                                                 "version='" + self.version + "',\n\t"
+                                                  "description='" + self.description + "',\n\t"
+                                                   "url='" + self.url + "',\n\t"
+                                                    "author='" + self.author + "',\n\t"
+                                                     "author_email='" + self.author_email + "',\n\t"
+                                                      "license='" + self.licenses + "',)" 
+                    )
+        
+    setup.close( )
         readme = open( "README.rst", "w" )
         lizenz = open( "LICENSE", "w" )
 
