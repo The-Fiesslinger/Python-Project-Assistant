@@ -19,7 +19,6 @@ import os
 import shutil
 
 
-
 class ProjectDIR:
     def __init__(self, script_name=" ", version=" ", description=" ", url=" ", author=" ", author_email=" ", path=" ", licenses=" "):
         self.script_name = script_name
@@ -78,7 +77,6 @@ class ProjectDIR:
         os.chdir("./test")
         test_init = open("__init__.py", "w")
         test_main = open("test_main.py", "w")
-
 
     def create_class(self):
         class_name = input("Klassen Name")

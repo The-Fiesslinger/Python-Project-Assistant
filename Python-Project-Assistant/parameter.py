@@ -51,7 +51,6 @@ except IndexError:
     CRINSTALL = None
 
 
-
 def main():
     create = param()
     create.abfrage()
