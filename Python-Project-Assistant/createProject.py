@@ -63,7 +63,7 @@ class param:
                                                       "license='" + self.licenses + "',)" 
                     )
         
-    setup.close( )
+        setup.close( )
         readme = open( "README.rst", "w" )
         lizenz = open( "LICENSE", "w" )
 
