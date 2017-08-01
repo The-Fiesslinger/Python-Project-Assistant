@@ -6,7 +6,7 @@ Pyton ist vor allem für Programmieranfänger die Sprache der Wahl. Ein Python-P
 es zu Verpacken, damit ein anderer es einfach Installieren und ausführen kann ist aber eine echte Herausforderung.
 
 Ziel dieses Projekts ist es eine Anwendung zu entwickeln, die jedem Anfänger erlaubt ein Programm in Python zu 
-entwickeln, die jedem Anfänger erlaubt ein Programm in Python zu entwickeln und auzuliefern.
+entwickeln und auzuliefern.
 Dazu soll eine Oberfläche entstehen die verschiedene Prozesse anbietet und alle nötigen Prozessschritte in einem 
 einfachen "Frage-Antwort-Spiel" abarbeitet.
 
